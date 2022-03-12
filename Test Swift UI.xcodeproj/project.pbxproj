@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		341BD60727DD0BB400882A33 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341BD60627DD0BB400882A33 /* DatePickerView.swift */; };
+		34424D0A27DD1C61007F9296 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34424D0927DD1C61007F9296 /* FormView.swift */; };
+		348384D927D34FE00067C070 /* VStackAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348384D827D34FE00067C070 /* VStackAlignment.swift */; };
 		34DCE38727D15C4000ECA874 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DCE38627D15C4000ECA874 /* AppDelegate.swift */; };
 		34DCE38927D15C4000ECA874 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DCE38827D15C4000ECA874 /* SceneDelegate.swift */; };
 		34DCE38B27D15C4000ECA874 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DCE38A27D15C4000ECA874 /* ContentView.swift */; };
 		34DCE38D27D15C4500ECA874 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34DCE38C27D15C4500ECA874 /* Assets.xcassets */; };
 		34DCE39027D15C4500ECA874 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34DCE38F27D15C4500ECA874 /* Preview Assets.xcassets */; };
 		34DCE39327D15C4500ECA874 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34DCE39127D15C4500ECA874 /* LaunchScreen.storyboard */; };
+		34DCE39B27D15CA500ECA874 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DCE39A27D15CA500ECA874 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		341BD60627DD0BB400882A33 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		34424D0927DD1C61007F9296 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		348384D827D34FE00067C070 /* VStackAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackAlignment.swift; sourceTree = "<group>"; };
 		34DCE38327D15C4000ECA874 /* Test Swift UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test Swift UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		34DCE38627D15C4000ECA874 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34DCE38827D15C4000ECA874 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,7 @@
 		34DCE38F27D15C4500ECA874 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		34DCE39227D15C4500ECA874 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34DCE39427D15C4500ECA874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34DCE39A27D15CA500ECA874 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +45,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		341BD60327DD0B8100882A33 /* DatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				341BD60627DD0BB400882A33 /* DatePickerView.swift */,
+			);
+			path = DatePicker;
+			sourceTree = "<group>";
+		};
+		348384D627D34EBC0067C070 /* VStack Examples */ = {
+			isa = PBXGroup;
+			children = (
+				348384D827D34FE00067C070 /* VStackAlignment.swift */,
+			);
+			path = "VStack Examples";
+			sourceTree = "<group>";
+		};
+		348384D727D34ECA0067C070 /* HStack Examples */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "HStack Examples";
+			sourceTree = "<group>";
+		};
+		348384DB27D36F7A0067C070 /* ZStack Examples */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "ZStack Examples";
+			sourceTree = "<group>";
+		};
 		34DCE37A27D15C4000ECA874 = {
 			isa = PBXGroup;
 			children = (
@@ -56,8 +94,14 @@
 		34DCE38527D15C4000ECA874 /* Test Swift UI */ = {
 			isa = PBXGroup;
 			children = (
+				34424D0927DD1C61007F9296 /* FormView.swift */,
+				341BD60327DD0B8100882A33 /* DatePicker */,
+				348384D627D34EBC0067C070 /* VStack Examples */,
+				348384D727D34ECA0067C070 /* HStack Examples */,
+				348384DB27D36F7A0067C070 /* ZStack Examples */,
 				34DCE38627D15C4000ECA874 /* AppDelegate.swift */,
 				34DCE38827D15C4000ECA874 /* SceneDelegate.swift */,
+				34DCE39A27D15CA500ECA874 /* CardView.swift */,
 				34DCE38A27D15C4000ECA874 /* ContentView.swift */,
 				34DCE38C27D15C4500ECA874 /* Assets.xcassets */,
 				34DCE39127D15C4500ECA874 /* LaunchScreen.storyboard */,
@@ -145,8 +189,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				341BD60727DD0BB400882A33 /* DatePickerView.swift in Sources */,
 				34DCE38727D15C4000ECA874 /* AppDelegate.swift in Sources */,
+				34424D0A27DD1C61007F9296 /* FormView.swift in Sources */,
+				348384D927D34FE00067C070 /* VStackAlignment.swift in Sources */,
 				34DCE38927D15C4000ECA874 /* SceneDelegate.swift in Sources */,
+				34DCE39B27D15CA500ECA874 /* CardView.swift in Sources */,
 				34DCE38B27D15C4000ECA874 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
